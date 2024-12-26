@@ -1,3 +1,3 @@
-$(document).on("mouseover", function(){
-    $("h1").css("color", "purple");
+$(document).on("click", function(){
+    $("h1").toggle();
 })
