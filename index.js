@@ -1,3 +1,3 @@
 $(document).on("click", function(){
-    $("h1").toggle();
-})
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
+});
